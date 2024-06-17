@@ -1,13 +1,19 @@
-import { BrowserRouter } from 'react-router-dom';
-import Router from './router/Router';
+import Button from './components/button/Button';
+import Container from './components/container/Container';
+import Form from './components/form/Form';
+import Header from './components/header/header';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
 	return (
-		<BrowserRouter>
+		<>
 			<GlobalStyles />
-			<Router />
-		</BrowserRouter>
+			<Container>
+				<Header />
+				<Button/>
+				<Form />
+			</Container>
+		</>
 	);
 };
 
