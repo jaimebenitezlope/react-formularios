@@ -10,7 +10,7 @@ const App = () => {
 			<GlobalStyles />
 			<Container>
 				<Header />
-				<Button/>
+				<Button />
 				<Form />
 			</Container>
 		</>
