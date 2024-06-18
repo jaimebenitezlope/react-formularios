@@ -1,7 +1,9 @@
-import Button from './components/button/Button';
+
 import Container from './components/container/Container';
-import Form from './components/form/Form';
-import Header from './components/header/header';
+
+import FormDiv from './components/formDiv/FormDiv';
+
+import HeaderDiv from './components/headerDiv/HeaderDiv';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
@@ -9,9 +11,9 @@ const App = () => {
 		<>
 			<GlobalStyles />
 			<Container>
-				<Header />
-				<Button />
-				<Form />
+				<HeaderDiv/>
+				<FormDiv/>
+				
 			</Container>
 		</>
 	);
